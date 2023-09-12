@@ -1,0 +1,35 @@
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6.4rem 0;
+  .site-nav-bar {
+    display: flex;
+    gap: 4.2rem;
+    .site-nav__list {
+      font-size: $P-s;
+      color: $secondary-dark-grey;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-decoration-color: $secondary-dark-grey;
+      }
+    }
+  }
+  .burger-bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .site-nav-bar {
+    display: none !important;
+  }
+  .burger-bar {
+    display: flex !important;
+  }
+}

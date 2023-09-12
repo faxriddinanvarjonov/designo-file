@@ -1,0 +1,11 @@
+.graphic-designtoapp-design {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), (rgba(0, 0, 0, 0.5))),
+    url("../../../images/png/main-card-2-img.png");
+  &:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.5),
+        (rgba(231, 129, 107, 0.5))
+      ),
+      url("../../../images/png/main-card-2-img.png");
+  }
+}
